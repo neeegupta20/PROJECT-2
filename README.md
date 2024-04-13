@@ -9,6 +9,7 @@ It has the following features ->
 - MongoDB
 - Express.js
 - React.js
+- CSS
 - Zod
 - Cors
 
