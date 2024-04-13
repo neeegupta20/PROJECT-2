@@ -1,0 +1,16 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.line{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    border: none;
+}
+.intro2{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
