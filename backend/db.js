@@ -1,5 +1,5 @@
 const mongoose=require("mongoose");
-mongoose.connect("mongodb+srv://wastenap:p%40ssw0rd%279%27%21@cluster0.gaehxqy.mongodb.net/todos")
+mongoose.connect("YOUR MONGOOSE CONNECTION STRING") //REPLACE YOUR MONGOOSE CONNECTION STRING
 const todoSchema=mongoose.Schema({
     title:String,
     description:String,
