@@ -20,6 +20,9 @@ function Todos({todos}){
                                     "Content-type":"application/json"
                                 }
                             })
+                          .then(async function(){
+                                alert("MARKED AS DONE. PLEASE REFRESH")
+                            })
                         }
                     }}>
                 {todos.completed==true? "COMPLETED":"MARK AS DONE"}</button>
