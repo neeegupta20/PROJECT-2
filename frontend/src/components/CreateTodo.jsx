@@ -34,7 +34,7 @@ function CreateTodo(){
                 })
                 .then(async function(res){
                     const json=await res.json();
-                    alert("TO-DO ADDED");
+                    alert("TO-DO ADDED.PLEASE REFRESH");
                 })
             }}>ADD A TO-DO</button>
             </div>
